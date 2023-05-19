@@ -7,6 +7,10 @@ import speech_recognition as s_r
 from googletrans import Translator as Trans
 from gtts import gTTS
 import os
+from deep_translator import GoogleTranslator
+
+
+
 
 engine = pyttsx3.init(
     'sapi5')  # sapi5 is an API and the technology for voice recognition and synthesis provided by Microsoft
@@ -55,6 +59,7 @@ def take_command():
     with s_r.Microphone() as source:
 
         print("Listening to your voice....")
+        speak("listning")
         r2.pause_threshold = 1
 
         audio1 = r2.listen(source)
@@ -110,5 +115,5 @@ speak.save("captured_JTP_voice.mp3")
 
 PS('captured_JTP_voice.mp3')
 os.remove('captured_JTP_voice.mp3')
-print(text)
+print(text1)
 print("------------------Thank you-----------------")
