@@ -52,11 +52,8 @@ The translated text will be spoken back to you.
 
 ## Supported Languages
 
-The assistant supports translation to a wide range of languages. Refer to the `dic_language` list in the code for the complete list.
+The assistant supports translation to a wide range of languages like:-
 
-## License
+Refer to the `dic_language` list in the code for the complete list.
+-
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Please replace `[your-username]` with your GitHub username. This README provides an overview of your project, installation instructions, and usage details for potential users and contributors. It also mentions the supported languages for translation.
